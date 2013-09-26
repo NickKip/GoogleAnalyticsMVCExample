@@ -1,0 +1,19 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @foreach (var s in ViewBag.Stats)
+        {
+            <p>@s</p>
+        }
+    </div>
+</body>
+</html>
